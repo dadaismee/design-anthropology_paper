@@ -1,9 +1,13 @@
+---
+bibliography: service/sources.bib
+---
+
 ## Introduction
 
 ## A brief note on niche construction and epistemic engineering 
 
 - 4-dimensional evolution
-- Sterelny, 
+- [@sterelny2003]
   - downstream niche construction
   - epistemic engineering → tomasello ratchet → tools 
 
