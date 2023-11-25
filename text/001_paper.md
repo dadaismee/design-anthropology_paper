@@ -1,3 +1,7 @@
+---
+bibliography: service/bibliography.json
+---
+
 ## Introduction
 
 ## A brief note on niche construction and epistemic engineering 
