@@ -1,14 +1,16 @@
 ---
-title: "Title of your awsome paper"
-subtitle: "subtitle"
-author: "Your name"
+title: "Design as epistemic engineering"
+subtitle: 
+author: "Valerii Shevchenko, MOME IxD 1/2"
 header-includes:
-date: 2023
+# bibliography: service/bibliography.bib
+date: November 2023
 csl: service/apa.csl
 # keywords: 
 
 # Formatting
 toc-title: "Contents"
+toc: false
 lof: false # List of figures
 lot: false # List of tables
 
