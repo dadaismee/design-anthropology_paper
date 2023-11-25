@@ -14,11 +14,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       
-      - name: Assemble joint bibliography
-        run: | 
-          cd service
-          jq -s 'add' *.json > bibliography.json
-      
       - name: Compile
         run: |
           pandoc \
@@ -29,7 +24,7 @@ jobs:
           --toc-depth=2 \
           --filter=pandoc-crossref \
           --csl=service/apa.csl \
-          --bibliography=service/bibliography.json \
+          --bibliography=service/bibliography.bib \
           --metadata-file=text/000_metadata.md \
           --number-sections \
           --citeproc \
