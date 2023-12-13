@@ -1,5 +1,5 @@
 ---
-bibliography: service/sources.bib
+bibliography: service/bibliography.bib
 title: Why design is responsible for human evolution
 author: Valerii Shevchenko
 ---
